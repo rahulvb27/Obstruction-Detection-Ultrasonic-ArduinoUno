@@ -24,7 +24,7 @@ void loop() {
   Serial.println(" cm");
 
   // Check if the distance is less than 30 centimeters
-  if (distance < 30) {
+  if (distance < 30) { //threshold value
     // Activate the buzzer
     digitalWrite(buzzerPin, LOW);
   } else {
